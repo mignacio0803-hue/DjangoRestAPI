@@ -1,0 +1,15 @@
+# Normaliza saltos de línea entre macOS (LF) y Windows (CRLF)
+* text=auto
+
+# Archivos que siempre deben usar LF
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+manage.py text eol=lf
+
+# Archivos binarios (Git no debe tocarlos)
+*.sqlite3 binary
+*.png binary
+*.jpg binary
+*.ico binary
